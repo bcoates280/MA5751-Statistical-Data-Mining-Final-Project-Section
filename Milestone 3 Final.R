@@ -12,7 +12,6 @@ library(klaR)
 library(svmpath)
 
 #Load Data Set
-setwd("C:/Users/bjc_2/Documents/MA5751/Week 2")
 cancer <- read.csv("cancer_reg.csv")
 
 #Remove un-wanted predictors
